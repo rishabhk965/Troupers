@@ -1,0 +1,129 @@
+body#bg-img, html {
+    width: 100%;
+    height: 100%;
+}
+
+body#bg-img, h1, h2, h3 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+a, .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+  color: #0099ff;
+}
+
+a:hover, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover {
+  color: #003399;
+}
+
+footer {
+    text-align: center;
+    padding: 0.4rem;
+    background: #202020;
+    color: rgb(116, 123, 230);
+    height: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; 
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+.alert-info {
+    width: 50%;
+    margin: auto;
+    color: #003399;
+    background-color: rgb(116, 123, 230);
+    border-color: #0099ff;
+}
+
+.btn-default {
+    border-color: #0099ff;
+    color: #0099ff;
+}
+
+.btn-default:hover {
+    background-color: #0099ff;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.content-section {
+    border-top: 1px solid #e7e7e7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: rgb(204, 0, 204);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    opacity: 0.3;
+    position: center;
+    z-index: -1;
+}
+
+.footer, .push {
+  clear: both;
+  height: 4em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid rgb(116, 123, 230);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: rgb(116, 123, 230);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    opacity: 0.3;
+    position: center;
+    z-index: -1;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.topnav {
+    font-size: 14px;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
