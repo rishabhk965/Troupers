@@ -61,7 +61,7 @@ p.copyright {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    color: rgb(204, 0, 204);
+    color: rgb(102, 0, 204);
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
     height: 100%;
@@ -86,12 +86,12 @@ p.copyright {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    color: rgb(116, 123, 230);
+    color: rgb(102, 0, 204);
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
     height: 100%;
     background-attachment: fixed;
-    opacity: 0.3;
+    opacity: 0.7;
     position: center;
     z-index: -1;
 }
